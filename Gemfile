@@ -50,3 +50,12 @@ ruby '2.2.3'
 
 gem 'puma'
 gem 'pg'
+
+gem 'slim-rails'
+
+gem 'bootstrap-sass'
+gem 'font-awesome-sass'
+
+group :staging, :production do
+  gem 'rails_12factor'
+end
