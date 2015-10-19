@@ -58,4 +58,5 @@ gem 'font-awesome-sass'
 
 group :staging, :production do
   gem 'rails_12factor'
+  gem 'heroku-deflater'
 end
