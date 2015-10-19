@@ -13,9 +13,12 @@
 
 ActiveRecord::Schema.define(version: 20151019091100) do
 
+<<<<<<< HEAD
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+=======
+>>>>>>> b813dca... Scaffold blog post and add seed data.
   create_table "blog_posts", force: :cascade do |t|
     t.string   "title"
     t.text     "content"
